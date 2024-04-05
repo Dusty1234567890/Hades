@@ -1,0 +1,24 @@
+local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
+ESP.Players = false
+ESP.Boxes = false
+ESP.Names = true
+ESP:Toggle(true)
+ESP:AddObjectListener(workspace,{
+    Name = "Pray",
+    CustomName = "Pray",
+    Color = Color3.fromRGB(0, 255, 0),
+    IsEnabled = "yes"
+})
+ESP.yes = true
+local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
+ESP.Players = false
+ESP.Boxes = false
+ESP.Names = true
+ESP:Toggle(true)
+ESP:AddObjectListener(workspace,{
+    Name = "GwaGwa",
+    CustomName = "Gato",
+    Color = Color3.fromRGB(0, 255, 0),
+    IsEnabled = "gato"
+})
+ESP.gato = true
